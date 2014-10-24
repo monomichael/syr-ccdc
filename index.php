@@ -3,5 +3,9 @@
 * This is the main template file
 *
 * @package WordPress
-* @subpackage wp-bootstrap
+* @subpackage syr-ccdc
 */
+
+get_header();
+
+get_footer();
