@@ -7,6 +7,9 @@
  *
  */
 ?>
+</div>
+</div>
+
 <hr/>
 <footer>
         <div class="container">
