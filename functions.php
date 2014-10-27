@@ -3,6 +3,7 @@
 * This file contains functions for the syr-ccdc theme.
 *
 */
+include 'includes/navwalker.php';
 
 /*
 * Enqueues front end scripts and styles.
@@ -19,3 +20,15 @@ function syr_ccdc_scripts_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'syr_ccdc_scripts_styles');
+
+if ( ! function_exists( 'syr_ccdc_theme_setup' ) ):
+function syr_ccdc_theme_setup() {
+		// Adds the main menu
+		register_nav_menus( array(
+  			'main-menu' => __( 'Main Menu', 'syr_ccdc' ),
+		) );
+	}
+endif;
+
+add_action( 'after_setup_theme', 'syr_ccdc_theme_setup' );
+
