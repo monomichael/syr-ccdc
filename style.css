@@ -9,3 +9,9 @@ License: GNU General Public License v2 or later License URI: http://www.gnu.org/
 
 This theme, like WordPress, is licensed under the GPL.
 */
+
+.header-container {
+	height: 430px;
+	overflow: hidden;
+	background-color: #f47321;
+}
