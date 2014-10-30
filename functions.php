@@ -16,7 +16,7 @@ function syr_ccdc_scripts_styles() {
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.2.0' );
     
     // Load our main stylesheet.
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/style.css', array('ccdc-css') ,'1.0');
+    wp_enqueue_style('syr-ccdc-style', get_template_directory_uri() . '/style.css', array() ,'1.0');
 }
 
 add_action('wp_enqueue_scripts', 'syr_ccdc_scripts_styles');
