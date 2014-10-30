@@ -47,3 +47,9 @@
 
 <div id="main-content">
     <div class="container">
+        <div class="border-element border-arrow-down">
+            <div class="border-outer">
+                <div class="border-inner">
+                </div>
+            </div>
+        </div>
