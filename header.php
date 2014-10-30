@@ -20,7 +20,7 @@
 
         <div class="header-container">
             <header id="primary-header">
-                    <nav class="navbar navbar-default" role="navigation">
+                    <nav class="navbar navbar-ccdc" role="navigation">
                             <div class="navbar-inner">
                                     <div class="container">
                                             <a class="navbar-brand" href="<?php echo site_url(); ?>" title="<?php esc_attr( bloginfo('name') ); ?>"><?php bloginfo('name'); ?></a>
@@ -36,6 +36,7 @@
                                                     'container_class' => 'collapse navbar-collapse navbar-right navbar-ex1-collapse',
                                                     'menu_class'      => 'nav navbar-nav',
                                                     'menu_id'         => 'main-menu',
+                                                    'menu_class'      => 'main-menu main-nav',
                                                     'walker'          => new syr_ccdc_Walker_Nav_Menu()
                                             ) ); ?>
                                     </div>
