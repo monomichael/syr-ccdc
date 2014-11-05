@@ -40,6 +40,46 @@ function syr_ccdc_widgets_init() {
         'before_title' => '<h1>',
         'after_title' => '</h1>',
     ) );
+
+    register_sidebar( array(
+        'name' => __( 'Footer Widget One', 'syr_ccdc' ),
+        'id' => 'sidebar-footer-1',
+        'description' => __( 'Found at the bottom of every page. Left Footer Widget.', 'syr_ccdc' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Footer Widget Two', 'syr_ccdc' ),
+        'id' => 'sidebar-footer-2',
+        'description' => __( 'Found at the bottom of every page. Center Left Footer Widget.', 'syr_ccdc' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Footer Widget Three', 'syr_ccdc' ),
+        'id' => 'sidebar-footer-3',
+        'description' => __( 'Found at the bottom of every page. Center Right Footer Widget.', 'syr_ccdc' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'Footer Widget Four', 'syr_ccdc' ),
+        'id' => 'sidebar-footer-4',
+        'description' => __( 'Found at the bottom of every page. Right Footer Widget.', 'syr_ccdc' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => "</aside>",
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ) );
 }
 
 add_action( 'widgets_init', 'syr_ccdc_widgets_init' );
