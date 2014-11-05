@@ -86,6 +86,14 @@ footer,
     z-index: 1;
 }
 
+#footer aside {
+    color: #aaa;
+}
+
+#footer aside .widget-title {
+    color: #888;
+}
+
 .border-element {
     overflow: visible;
 }
