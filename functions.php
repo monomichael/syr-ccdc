@@ -35,7 +35,7 @@ add_action( 'after_setup_theme', 'syr_ccdc_theme_setup' );
 function syr_ccdc_widgets_init() {
     register_sidebar( array(
         'name' => __( 'Blog Sidebar', 'syr_ccdc' ),
-        'id' => 'sidebar-1',
+        'id' => 'sidebar-blog',
         'description' => __( 'Widgets in this area will be shown on blog and posts pages.', 'syr_ccdc' ),
         'before_title' => '<h1>',
         'after_title' => '</h1>',
