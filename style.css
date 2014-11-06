@@ -18,6 +18,12 @@ h1, h2, h3, h4, h5, h6, #top .title_container .main-title {
 
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+    line-height: 1.65em;
+}
+
+a {
+    color: #919191;
 }
 
 .header-container {
@@ -77,6 +83,37 @@ body {
     margin: 0;
     opacity: 0.9;
     line-height: 30px;
+}
+
+#primary #content article h1 {
+    font-size: 21px;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+
+#primary #content article .entry-content p {
+    margin: 0.85em 0;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+}
+
+#primary #content article .entry-content blockquote {
+    border-color: #000;
+    border-left-style: solid;
+    border-left-width: 7px;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0 1em 1em 0;
+    padding: 0 0 0 20px;
+}
+
+#primary #content article .entry-content blockquote p {
+    font-size: 16px;
+    color: #919191;
+    line-height: 24px;
+    font-weight: 400;
+    vertical-align: baseline;
 }
 
 footer,
