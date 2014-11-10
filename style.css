@@ -14,6 +14,7 @@ This theme, like WordPress, is licensed under the GPL.
 
 h1, h2, h3, h4, h5, h6, #top .title_container .main-title {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 
 body {
@@ -107,6 +108,10 @@ h6 {
 	height: 40px 0;
 }
 
+#primary, #blog-sidebar {
+    padding: 50px 0;
+}
+
 #primary-header .header .container h1 {
     font-weight: 700;
     color: #fff;
@@ -167,6 +172,12 @@ h6 {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+#blog-sidebar .widget:first-child {
+    border-top-style: none;
+    border-top-width: 0;
+    padding-top: 0;
 }
 
 #blog-sidebar li {
