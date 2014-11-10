@@ -26,6 +26,40 @@ a {
     color: #919191;
 }
 
+h1 {
+    font-size: 34px;
+    line-height: 1.1em;
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 1.1em;
+}
+
 .header-container {
 	height: 430px;
 	overflow: hidden;
@@ -114,6 +148,88 @@ a {
     line-height: 24px;
     font-weight: 400;
     vertical-align: baseline;
+}
+
+.widget {
+    clear: both;
+    float: none;
+    padding: 30px 0;
+    position: relative;
+}
+
+.widget h1 {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#blog-sidebar li {
+    list-style: none;
+}
+
+#blog-sidebar .searchform label{
+    display: none;
+}
+
+#blog-sidebar .searchform > div {
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+#blog-sidebar .searchform #s {
+    box-shadow: none;
+    margin: 0;
+    padding: 8px 47px 8px 5px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border-color: #e1e1e1;
+    color: #919191;
+    border: solid 1px #e1e1e1;
+    font-size: 13px;
+}
+
+#blog-sidebar .searchform #searchsubmit {
+    border-radius: 0;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    min-width: 40px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    z-index: 2;
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    border: 0;
+}
+
+#blog-sidebar .widget ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li.recentcomments, .widget_recent_entries li {
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #e1e1e1;
+    display: block;
+    font-size: 11px;
+    line-height: 1.5em;
+    padding: 7px 0;
+}
+
+li.recentcomments:first-child, .widget_recent_entries li:first-child {
+    border-top: medium none;
 }
 
 footer,
