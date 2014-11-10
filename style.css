@@ -26,6 +26,40 @@ a {
     color: #919191;
 }
 
+h1 {
+    font-size: 34px;
+    line-height: 1.1em;
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.1em;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.1em;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 1.1em;
+}
+
 .header-container {
 	height: 430px;
 	overflow: hidden;
