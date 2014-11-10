@@ -17,13 +17,17 @@ h1, h2, h3, h4, h5, h6, #top .title_container .main-title {
 }
 
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 13px/1.65em "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #444;
-    line-height: 1.65em;
 }
 
 a {
     color: #919191;
+}
+
+a:hover,
+a:active {
+    color: #f47321;
 }
 
 h1 {
@@ -223,7 +227,7 @@ li.recentcomments, .widget_recent_entries li {
     border-top-width: 3px;
     border-top-color: #e1e1e1;
     display: block;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.5em;
     padding: 7px 0;
 }
