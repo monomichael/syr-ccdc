@@ -116,6 +116,52 @@ a {
     vertical-align: baseline;
 }
 
+#blog-sidebar li {
+    list-style: none;
+}
+
+#blog-sidebar .searchform label{
+    display: none;
+}
+
+#blog-sidebar .searchform > div {
+    margin-top: 20px;
+    max-width: 100%;
+    position: relative;
+}
+
+#blog-sidebar .searchform #s {
+    box-shadow: none;
+    margin: 0;
+    padding: 8px 47px 8px 5px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border-color: #e1e1e1;
+    color: #919191;
+    border: solid 1px #e1e1e1;
+    font-size: 13px;
+}
+
+#blog-sidebar .searchform #searchsubmit {
+    border-radius: 0;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    min-width: 40px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    z-index: 2;
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    border: 0;
+}
+
 footer,
 #footer {
 	background-color: #222222;

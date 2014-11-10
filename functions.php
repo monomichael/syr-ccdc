@@ -90,8 +90,8 @@ add_action( 'widgets_init', 'syr_ccdc_widgets_init' );
 function syr_ccdc_search_form( $form ) {
     $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
     <div><label class="screen-reader-text" for="s">' . __( 'Search for:' ) . '</label>
-    <input type="text" value="' . get_search_query() . '" name="s" id="s" />
-    <input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+    <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="Search" />
+    <button type="submit" id="searchsubmit"><span class="glyphicon glyphicon-search"></span></button>
     </div>
     </form>';
 
