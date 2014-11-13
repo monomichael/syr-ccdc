@@ -41,9 +41,11 @@
 </div>
 
 <footer>
-        <div class="container">
-                © Syracuse University CCDC Team 2014
-        </div>
+    <div class="container">
+        <span class="copyright">
+        © Syracuse University CCDC Team 2014
+        </span>
+    </div>
 </footer>
 <?php wp_footer(); ?>
 </body>
