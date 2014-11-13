@@ -14,16 +14,21 @@ This theme, like WordPress, is licensed under the GPL.
 
 h1, h2, h3, h4, h5, h6, #top .title_container .main-title {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
 }
 
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 13px/1.65em "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #444;
-    line-height: 1.65em;
 }
 
 a {
     color: #919191;
+}
+
+a:hover,
+a:active {
+    color: #f47321;
 }
 
 h1 {
@@ -103,6 +108,10 @@ h6 {
 	height: 40px 0;
 }
 
+#primary, #blog-sidebar {
+    padding: 50px 0;
+}
+
 #primary-header .header .container h1 {
     font-weight: 700;
     color: #fff;
@@ -165,7 +174,13 @@ h6 {
     text-transform: uppercase;
 }
 
-#blog-sidebar li {
+#blog-sidebar .widget:first-child {
+    border-top-style: none;
+    border-top-width: 0;
+    padding-top: 0;
+}
+
+.widget li {
     list-style: none;
 }
 
@@ -211,7 +226,7 @@ h6 {
     border: 0;
 }
 
-#blog-sidebar .widget ul {
+.widget ul {
     float: left;
     margin: 0;
     padding: 0;
@@ -223,7 +238,7 @@ li.recentcomments, .widget_recent_entries li {
     border-top-width: 3px;
     border-top-color: #e1e1e1;
     display: block;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.5em;
     padding: 7px 0;
 }
@@ -232,10 +247,9 @@ li.recentcomments:first-child, .widget_recent_entries li:first-child {
     border-top: medium none;
 }
 
-footer,
 #footer {
 	background-color: #222222;
-    padding: 15px 0 30px;
+    padding: 15px 0 45px;
     z-index: 1;
 }
 
@@ -245,6 +259,36 @@ footer,
 
 #footer aside .widget-title {
     color: #888;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#footer a {
+    color: #aaaaaa;
+}
+
+#footer a:hover,
+#footer a:active {
+    color: #ffffff;
+}
+
+footer {
+    font-size: 11px;
+    margin-top: -1px;
+    z-index: 1;
+    background-color: #222222;
+    color: #eeeeee;
+    border-color: #373737;
+    border-top-style: solid;
+    border-top-width: 1px;
+    clear: both;
+    position: relative;
+    padding: 15px 0;
+}
+
+#footer .copyright {
+    float: left;
 }
 
 .border-element {
