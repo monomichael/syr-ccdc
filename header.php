@@ -23,10 +23,6 @@
                     <nav class="navbar navbar-ccdc" role="navigation">
                             <div class="navbar-inner">
                                     <div class="container">
-                                        <strong class="logo">
-                                            <a href="/"><img width="300" height="100" alt="Enfold Flat Business Demo" src="wp-content/themes/syr-ccdc/img/infosec.png"></a>
-                                        </strong>
-
                                         <div class="navbar-header">
                                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                                                         <span class="sr-only">Toggle navigation</span>
