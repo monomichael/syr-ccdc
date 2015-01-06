@@ -44,9 +44,9 @@
 
                     <div class="header">
                         <div class="container">
-                            <h1>InfoSec Club</h1>
-                            <h2>Syracuse University</h2>
-                            <h2>Lorem ipsum. Lorem ipsum.</h2>
+                            <h1><?php echo get_option( "blogname", "InfoSec Club" ); ?></h1>
+                            <h2><?php echo get_option( "blogdescription", "Syracuse University" ); ?></h2>
+                            <h2><?php echo get_theme_mods()['another_line']; ?></h2>
                         </div>
                     </div>
             </header>
