@@ -14,7 +14,7 @@ get_header();
 		<div id="content" class="site-content" role="main">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<article>
-					<h1><?php the_title(); ?></h1>
+					<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 					<span class="post-meta-infos">
 						<time class="date-container post-meta-info" itemprop="datePublished">
 							<?php the_date(); ?>

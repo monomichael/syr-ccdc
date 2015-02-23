@@ -99,3 +99,24 @@ function syr_ccdc_search_form( $form ) {
 }
 
 add_filter( 'get_search_form', 'syr_ccdc_search_form' );
+
+/* Register customization options
+ *
+ */
+function syr_ccdc_customize_register( $wp_customize ) {
+   $wp_customize->add_setting( 'another_line' , array(
+        'default'       => "Lorem ipsum. Lorem ipsum.",
+        'transport'     => 'refresh',
+    ) );
+
+    $wp_customize->add_control(
+        'another_line', 
+        array(
+            'label'    => __( 'Another Line', 'syr_ccdc' ),
+            'section'  => 'title_tagline',
+            'settings' => 'another_line',
+            'type'     => 'text'
+        )
+    );
+}
+add_action( 'customize_register', 'syr_ccdc_customize_register' );
