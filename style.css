@@ -323,3 +323,7 @@ footer {
     width: 50px;
     background-color: #f47321;
 }
+
+.aiwidgetscss.widget > h3 {
+    display: none;
+}
